@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #191b1f;
+  min-height: 100vh;
+}
+
+.theboss-app {
+  margin-left: 50px;
+  
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  /* margin: 1px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  align-items: center;
+  background-color: #191b1f;;
+  /* border-bottom: 3px solid #191b1f;; */
+  
+}
+
+.Navbar img {
+  margin-left: 10px;
+}
+
+.navbar-right {
+  margin-right: 0px;
+}
+.navbar-right a {
+  color: #97999f;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+
+.navbutton {
+  padding: 10px;
+  color: white;
+  background-color: #e80371;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.hero-section {
+  margin-top: 80px;
+  position: relative;
+  
+  /* min-height: 200vh; */
+  /* padding-top: 60px;  */
+  /* background-image: url(images/hyra2.png); */
+  /* border: 2px solid red; */
+}
+
+.hero-text {
+  position: absolute;
+  color: white;
+  bottom: 100px;
+  /* left: 60px; */
+  /* right: 0; */
+  padding: 20px;
+}
+.hero-text h1 {
+  font-size: 56px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.protocol {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 26px;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+
+.hero-socials {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  /* border: 2px solid red;?\ */
+  
+}
+
+.hero-socials img {
+  margin: 12px;
+  margin-left: 0
+}
+
+.hero-socials img:first-child{
+  height: 25px;
+}
+
+
+.hero-socials img:last-child{
+  height: 21px;
+  
+}
+
+.another-hero {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.another-hero h1 {
+  margin: 40px;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+.another-hero h1 span {
+  font-size: 50px;
+}
+
+.another-hero h1 p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 100;
+}
